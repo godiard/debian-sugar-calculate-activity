@@ -1,4 +1,4 @@
-Source: sugar-labyrinth-activity
+Source: sugar-calculate-activity
 Section: x11
 Priority: optional
 Maintainer: Debian Sugar Team <pkg-sugar-devel@lists.alioth.debian.org>
@@ -13,12 +13,12 @@ Build-Depends: cdbs (>= 0.4.97~),
  python-sugar-toolkit-0.98,
  unzip
 Standards-Version: 3.9.6
-Vcs-Git: https://github.com/tchx84/debian-sugar-labyrinth-activity.git
-Vcs-Browser: https://github.com/tchx84/debian-sugar-labyrinth-activity.git
-Homepage: http://wiki.sugarlabs.org/go/Activities/Labyrinth
+Vcs-Git: https://github.com/godiard/debian-sugar-calculate-activity.git
+Vcs-Browser: https://github.com/godiard/debian-sugar-calculate-activity.git
+Homepage: http://wiki.sugarlabs.org/go/Activities/Calculate
 XS-Python-Version: all
 
-Package: sugar-labyrinth-activity
+Package: sugar-calculate-activity
 Architecture: all
 Depends: ${shlibs:Depends},
  ${python:Depends},
@@ -29,7 +29,7 @@ Provides: ${python:Provides},
  ${cdbs:Provides}
 Conflicts: ${cdbs:Conflicts}
 Replaces: ${cdbs:Replaces}
-Description: Sugar Learning Platform - labyrinth mind-mapping activity
+Description: Sugar Learning Platform - calculate activity
  Sugar Learning Platform promotes collaborative learning through Sugar
  Activities that encourage critical thinking, the heart of a quality
  education.  Designed from the ground up especially for children, Sugar
@@ -41,9 +41,4 @@ Description: Sugar Learning Platform - labyrinth mind-mapping activity
  Activities support learner collaboration, where multiple learners may
  be invited to join a collective Activity session.
  .
- Labyrinth is a lightweight mind-mapping activity based on an Open Source
- project called Labyrinth. It allows creating mind maps from a mixture of
- text, freehand drawings, and images from your Journal. There is an infinite
- sized canvas for your map that can be panned and zoomed while you work. Maps
- can be "Kept to PDF" for uploading to web sites, sharing, and printing by
- others who may not be using Sugar.
+ Calculate is a simple but powerful calculator.
