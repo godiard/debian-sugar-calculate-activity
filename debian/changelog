@@ -1,0 +1,9 @@
+sugar-labyrinth-activity (b) UNRELEASED; urgency=low
+
+  [ Martin Abente Lahaye ]
+  * Initial release for Debian.
+
+  [ gonzalo ]
+  * 43-0godiard1
+
+ -- gonzalo <gonzalo@gonzalo-buildervm>  Tue, 19 May 2015 13:17:48 -0300
